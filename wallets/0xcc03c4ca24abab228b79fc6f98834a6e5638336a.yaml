@@ -1,0 +1,19 @@
+address: "0xcc03c4ca24abab228b79fc6f98834a6e5638336a"
+classification: ACTIVE_WHALE
+tokens_held: 37
+first_seen: "2024-01-14"
+total_eth_volume: "12.6"
+transaction_count: 47
+pattern: "Active trading whale — buy and sell activity consistent with swing trading"
+funding_sources:
+  - "0x3a7d1b8cf291a... (2.1 ETH) — related swing trader"
+  - "CEX deposit (10.5 ETH) — Binance or Coinbase"
+outgoing_flows:
+  - "0x1b2c3d4e5a6b7... (1.8 ETH) — sub-wallet distribution"
+  - "OpenSea marketplace (8.2 ETH) — purchases"
+  - "0x9f8e7d6c4b3a2... (2.6 ETH) — related wallet"
+red_flags:
+  - high_transaction_volume
+  - sub_wallet_distribution_pattern
+  - wash_trading_indicators
+connection: "Active whale — unclear if part of pump network or independent trader"

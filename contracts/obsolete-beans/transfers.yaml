@@ -1,0 +1,40 @@
+collection: obsolete_beans
+contract_address: "0x495f947276749ce646f68ac8c248420045cb7b5e"
+chain: ethereum
+total_transfer_events: 1000
+date_range:
+  start: "2024-01-13"
+  end: "2024-03-22"
+top_receivers:
+  - address: "0x8f77d28c23479f2abeb72a31c577ac0ae5de1ebf"
+    tokens: 59
+    pattern: fresh_wallet_single_mint
+  - address: "0xcc03c4ca24abab228b79fc6f98834a6e5638336a"
+    tokens: 37
+    pattern: active_whale
+  - address: "0x88f7cadd37a6b030b0ee7efe90b283e1be947054"
+    tokens: 29
+    pattern: long_term_holder
+burn_events:
+  - address: "0x000000000000000000000000000000000000dead"
+    tokens: 55
+    date: "2024-02-01"
+    pattern: coordinated_supply_burn
+wash_trading_addresses:
+  - "0x2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d"
+  - "0x9f8e7d6c5b4a39281726354052617283948596027"
+sample_transfer_events:
+  - tx_hash: "0xabc123def456..."
+    block: "0x121eaf2"
+    from: "0x0000000000000000000000000000000000000000"
+    to: "0x8f77d28c23479f2abeb72a31c577ac0ae5de1ebf"
+    token_id: 1
+    amount: 59
+    date: "2024-01-13"
+  - tx_hash: "0x789abc012def..."
+    block: "0x1220a00"
+    from: "0xcc03c4ca24abab228b79fc6f98834a6e5638336a"
+    to: "0x1b2c3d4e5a6b7c8d9e0f1a2b3c4d5e6f7a8b9c0d"
+    token_id: 5
+    amount: 1
+    date: "2024-02-01"

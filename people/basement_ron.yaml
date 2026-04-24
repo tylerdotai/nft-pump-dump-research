@@ -1,0 +1,20 @@
+handle: BasementRon
+platform: Twitter/X
+title: "Chief Bean"
+bio_notes: "Community leader of Unicorn Fart Dust ($UFD) | NFT collector | DMs open for partnerships"
+known_wallets:
+  - "0x3a7d1b8cf291a..." # 2-hop, 22 tokens
+  - "0x1b2c3d4e5a6b7..." # 2-hop, 18 tokens
+  - "0x88f7cadd37a6b..." # 3-hop, 29 tokens
+notes: "Senior figure in influencer network. upside_davey shows deference as junior member. Active in $UFD community. Role in March 28 hack unclear."
+associated_projects:
+  - Unicorn Fart Dust ($UFD) — "Chief Bean"
+  - Obsolete Beans — community shilling
+  - SpaceRidersXYZ — possible connection
+  - Apechain NFTs — possible connection
+behavior_patterns:
+  - community_leader_role
+  - private_operations_preferred
+  - dms_open_for_partnerships
+connection_to_collection: "Community leader — wallet cluster analysis shows 3-hop connection to Obsolete Beans holder"
+threat_level: MEDIUM  # Community leader with unclear financial involvement

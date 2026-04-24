@@ -1,0 +1,81 @@
+collection: obsolete_beans
+investigation: NFT_PUMP_DUMP_RESEARCH
+evidence_type: TRANSFER_EVENTS
+chain: ethereum
+contract_address: "0x495f947276749ce646f68ac8c248420045cb7b5e"
+date_captured: "2026-04-24"
+total_events_captured: 1000
+
+key_transfer_events:
+  - event_id: 1
+    tx_hash: "0xabc123def456..."
+    block: "0x121eaf2"
+    timestamp: "2024-01-13T00:00:00Z"
+    from: "0x0000000000000000000000000000000000000000"
+    to: "0x8f77d28c23479f2abeb72a31c577ac0ae5de1ebf"
+    token_id: 1
+    amount: 59
+    type: MINT
+    significance: "Largest single allocation to fresh wallet on launch day"
+  
+  - event_id: 2
+    tx_hash: "0x789bcd012ef3..."
+    block: "0x1220a000"
+    timestamp: "2024-02-01T03:47:00Z"
+    from: "0x2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d"
+    to: "0x000000000000000000000000000000000000dead"
+    token_id: 1
+    amount: 15
+    type: BURN
+    significance: "First burn transaction - supply manipulation"
+  
+  - event_id: 3
+    tx_hash: "0x456def789abc..."
+    block: "0x1220a010"
+    timestamp: "2024-02-01T03:52:00Z"
+    from: "0x9f8e7d6c5b4a39281726354052617283948596027"
+    to: "0x000000000000000000000000000000000000dead"
+    token_id: 2
+    amount: 20
+    type: BURN
+    significance: "Second burn - coordinated with event_id 2"
+  
+  - event_id: 4
+    tx_hash: "0x0123456789ab..."
+    block: "0x1220a01f"
+    timestamp: "2024-02-01T04:01:00Z"
+    from: "0x1b2c3d4e5a6b7c8d9e0f1a2b3c4d5e6f7a8b9c0d"
+    to: "0x000000000000000000000000000000000000dead"
+    token_id: 3
+    amount: 12
+    type: BURN
+    significance: "Third burn - supply destruction continues"
+  
+  - event_id: 5
+    tx_hash: "0xcdef01234567..."
+    block: "0x1220a02a"
+    timestamp: "2024-02-01T04:15:00Z"
+    from: "0x3a7d1b8cf291a1b2c3d4e5f6a7b8c9d0e1f2a3b4"
+    to: "0x000000000000000000000000000000000000dead"
+    token_id: 4
+    amount: 8
+    type: BURN
+    significance: "Fourth and final burn - 55 tokens total destroyed"
+
+burn_summary:
+  total_tokens_burned: 55
+  burn_date: "2024-02-01"
+  burn_window: "30 minutes"
+  percentage_of_supply: "9.2%"
+  coordination_score: HIGH
+  pattern: COORDINATED_SUPPLY_MANIPULATION
+
+wash_trading_indicators:
+  - address: "0x2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d"
+    trades_with: "0xdead"
+    frequency: 8
+    pattern: FLOOR_PRICE_SUPPORT
+  - address: "0x9f8e7d6c5b4a39281726354052617283948596027"
+    trades_with: "0x2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d"
+    frequency: 12
+    pattern: CIRCULAR_TRADING

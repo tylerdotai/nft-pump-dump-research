@@ -1,0 +1,60 @@
+network_name: "UFD Beans Network"
+investigation_target: "Obsolete Beans Pump-and-Dump"
+nodes:
+  - id: upside_davey
+    type: influencer
+    platform: twitter
+    handle: "@upside_davey"
+    role: Social shiller
+    threat_level: MEDIUM
+  - id: BasementRon
+    type: influencer
+    platform: twitter
+    handle: "@BasementRon"
+    role: "Chief Bean (community leader)"
+    threat_level: MEDIUM
+  - id: ufd_token
+    type: project
+    token: "$UFD"
+    status: HACKED
+    hack_date: "2024-03-28"
+    hack_amount: "$1.2M"
+  - id: obsolete_beans
+    type: nft_collection
+    status: INACTIVE
+    verdict: PUMP_AND_DUMP_CONFIRMED
+  - id: space_riders_xyz
+    type: nft_collection
+    status: ACTIVE_SUSPICIOUS
+edges:
+  - source: upside_davey
+    target: BasementRon
+    type: COMMUNITY
+    weight: HIGH
+    notes: "upside_davey calls BasementRon 'Chief bean', signals inner circle"
+  - source: upside_davey
+    target: obsolete_beans
+    type: SHILLING
+    weight: HIGH
+    date: "2024-01-20"
+  - source: BasementRon
+    target: ufd_token
+    type: COMMUNITY_LEADERSHIP
+    weight: HIGH
+  - source: upside_davey
+    target: ufd_token
+    type: COMMUNITY
+    weight: HIGH
+  - source: upside_davey
+    target: space_riders_xyz
+    type: SHILLING
+    weight: MEDIUM
+cluster_analysis:
+  community_phrase: "Eat some beans"
+  leadership_title: "Chief Bean"
+  pump_pattern: "Shill to UFD community → price spike → abandonment"
+hack_timeline:
+  - date: "2024-03-22"
+    event: "Obsolete Beans goes inactive"
+  - date: "2024-03-28"
+    event: "$UFD hacked for $1.2M (6 days later)"

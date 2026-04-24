@@ -1,0 +1,16 @@
+associated_person: upside_davey
+platform: twitter
+platform_id: "1481177617972334592"
+bio_wallet: "0xca5537cafb413d4be21b3613b433112a29855ec5"
+bio_wallet_status: NOT_IN_USE
+bio_wallet_balance: "0 ETH"
+bio_wallet_transactions: 0
+notes: "Wallet linked in Twitter bio is abandoned (0 ETH, 0 txs). Real trading wallet unknown."
+known_activity:
+  - project: Obsolete Beans
+    role: Social shiller
+    date: "2024-01-20"
+  - project: SpaceRidersXYZ
+    role: Social shiller
+    date: "2024-04-??"
+threat_assessment: "MEDIUM — Social influence confirmed, financial connection to Obsolete Beans wallets not found on-chain"

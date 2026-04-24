@@ -1,0 +1,48 @@
+$schema: "http://json-schema.org/draft-07/schema#"
+title: Wallet
+description: Schema for a blockchain wallet under investigation
+type: object
+required:
+  - address
+  - classification
+properties:
+  address:
+    type: string
+    pattern: "^0x[a-fA-F0-9]{40}$"
+    description: "Ethereum wallet address"
+  classification:
+    type: string
+    enum:
+      - CLEAN
+      - SUSPICIOUS_RECIPIENT
+      - ACTIVE_WHALE
+      - LONG_TERM_HOLDER
+      - WASH_TRADER
+      - TEAM_INSIDER
+      - BURN_ADDRESS
+    description: "Wallet classification based on behavior"
+  tokens_held:
+    type: integer
+    minimum: 0
+  tokens_received:
+    type: integer
+    minimum: 0
+  first_seen:
+    type: string
+    format: date
+  total_eth_volume:
+    type: string
+    description: "Total ETH volume in transactions"
+  transaction_count:
+    type: integer
+    minimum: 0
+  pattern:
+    type: string
+    description: "Behavioral pattern description"
+  red_flags:
+    type: array
+    items:
+      type: string
+  connection:
+    type: string
+    description: "Connection to investigation target"

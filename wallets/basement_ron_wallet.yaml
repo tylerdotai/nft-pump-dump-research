@@ -1,0 +1,16 @@
+associated_person: BasementRon
+platform: twitter
+handle: "@BasementRon"
+title: "Chief Bean of $UFD community"
+known_wallets:
+  - address: "0x3a7d1b8cf291a..."
+    connection: 2_hop
+    tokens: 22
+  - address: "0x1b2c3d4e5a6b7..."
+    connection: 2_hop
+    tokens: 18
+  - address: "0x88f7cadd37a6b..."
+    connection: 3_hop
+    tokens: 29
+notes: "Multiple wallet cluster identified through blockchain analysis. Direct wallet address not publicly disclosed."
+threat_assessment: "MEDIUM — Community leader, likely has financial interest in $UFD ecosystem projects"

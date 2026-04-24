@@ -1,0 +1,70 @@
+network_name: obsolete_beans_investigation
+graph_type: directed
+generated: "2026-04-24"
+
+nodes:
+  - id: "0x8f77d28c23479f2abeb72a31c577ac0ae5de1ebf"
+    label: "Team Wallet (59 tokens)"
+    group: INSIDER
+    tokens: 59
+    pattern: fresh_wallet_single_mint
+  
+  - id: "0x000000000000000000000000000000000000dead"
+    label: "Burn Address"
+    group: BURN
+    tokens: 55
+  
+  - id: "0xcc03c4ca24abab228b79fc6f98834a6e5638336a"
+    label: "Active Whale (37 tokens)"
+    group: WHALE
+    tokens: 37
+    eth_volume: "12.6"
+  
+  - id: "0x88f7cadd37a6b030b0ee7efe90b283e1be947054"
+    label: "Long-term Holder (29 tokens)"
+    group: HOLDER
+    tokens: 29
+    eth_volume: "4.28"
+  
+  - id: "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073"
+    label: "OpenSea Shared Storefront"
+    group: CONTRACT
+    type: ERC-1155
+  
+  - id: "upside_davey"
+    label: "@upside_davey"
+    group: SOCIAL
+    platform: twitter
+  
+  - id: "BasementRon"
+    label: "@BasementRon"
+    group: SOCIAL
+    platform: twitter
+
+edges:
+  - source: "0x5b3256965e7c3cf26e11fcaf296dfc8807c01073"
+    target: "0x8f77d28c23479f2abeb72a31c577ac0ae5de1ebf"
+    label: "Initial Mint (59 tokens)"
+    weight: 10
+  
+  - source: "0xcc03c4ca24abab228b79fc6f98834a6e5638336a"
+    target: "0xdead"
+    label: "Wash trades"
+    weight: 2
+  
+  - source: "upside_davey"
+    target: "BasementRon"
+    label: "Inner circle"
+    weight: 8
+  
+  - source: "upside_davey"
+    target: "0xcc03c4ca24abab228b79fc6f98834a6e5638336a"
+    label: "Social shilling"
+    weight: 5
+
+statistics:
+  total_nodes: 7
+  total_edges: 5
+  gini_coefficient: 0.74
+  top_holder_concentration: "24.5%"
+  insider_allocation: "10.8%"

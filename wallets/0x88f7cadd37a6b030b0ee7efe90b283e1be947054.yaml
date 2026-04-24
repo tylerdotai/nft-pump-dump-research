@@ -1,0 +1,14 @@
+address: "0x88f7cadd37a6b030b0ee7efe90b283e1be947054"
+classification: LONG_TERM_HOLDER
+tokens_held: 29
+first_seen: "2024-01-13"
+total_eth_volume: "4.28"
+transaction_count: 8
+pattern: "Buy and hold — minimal trading, long holding period consistent with believer or team member"
+average_holding_period: "6 weeks"
+connection_to_network: "3-hop connection to BasementRon wallet cluster"
+red_flags:
+  - minimal_trading_activity
+  - long_holding_period
+  - wallet_cluster_connection_to_basementron
+connection: "Long-term holder — may be team member with staggered selling strategy"

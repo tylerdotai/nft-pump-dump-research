@@ -1,0 +1,12 @@
+address: "0x8f77d28c23479f2abeb72a31c577ac0ae5de1ebf"
+classification: SUSPICIOUS_RECIPIENT
+tokens_received: 59
+first_seen: "2024-01-13"
+pattern: "Received all 59 tokens on collection launch day — classic pump-and-dump initial mint"
+total_eth_received: "0.05"
+transaction_count: 1
+red_flags:
+  - single_transaction_wallet
+  - received_entire_initial_mint
+  - fresh_wallet_on_launch_day
+connection: "Likely team/insider wallet — received largest single allocation on day 1"

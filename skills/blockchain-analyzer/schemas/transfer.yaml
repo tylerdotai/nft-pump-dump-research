@@ -1,0 +1,52 @@
+$schema: "http://json-schema.org/draft-07/schema#"
+title: Transfer
+description: Schema for a token transfer event
+type: object
+required:
+  - tx_hash
+  - block
+  - from
+  - to
+  - token_address
+properties:
+  tx_hash:
+    type: string
+    pattern: "^0x[a-fA-F0-9]{64}$"
+  block:
+    type: string
+  timestamp:
+    type: string
+    format: date-time
+  from:
+    type: string
+    pattern: "^0x[a-fA-F0-9]{40}$"
+    description: "Sender address (0x0 for mint)"
+  to:
+    type: string
+    pattern: "^0x[a-fA-F0-9]{40}$"
+    description: "Receiver address"
+  token_address:
+    type: string
+    pattern: "^0x[a-fA-F0-9]{40}$"
+  token_standard:
+    type: string
+    enum:
+      - ERC-20
+      - ERC-721
+      - ERC-1155
+  token_id:
+    type: string
+    description: "Token ID for ERC-721/ERC-1155"
+  amount:
+    type: string
+    description: "Amount transferred (1 for ERC-721)"
+  gas_used:
+    type: string
+  gas_price:
+    type: string
+  is_burn:
+    type: boolean
+    description: "True if transfer to burn address"
+  is_mint:
+    type: boolean
+    description: "True if transfer from 0x0"

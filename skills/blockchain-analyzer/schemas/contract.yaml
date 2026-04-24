@@ -1,0 +1,57 @@
+$schema: "http://json-schema.org/draft-07/schema#"
+title: Contract
+description: Schema for a smart contract under investigation
+type: object
+required:
+  - address
+  - chain
+  - standard
+properties:
+  address:
+    type: string
+    pattern: "^0x[a-fA-F0-9]{40}$"
+  chain:
+    type: string
+    enum:
+      - ethereum
+      - avalanche
+      - polygon
+      - arbitrum
+      - optimism
+  standard:
+    type: string
+    enum:
+      - ERC-20
+      - ERC-721
+      - ERC-1155
+  platform:
+    type: string
+    description: "Deployment platform (e.g., OpenSea, Rarible, custom)"
+  created_block:
+    type: string
+  created_date:
+    type: string
+    format: date
+  creator_address:
+    type: string
+    pattern: "^0x[a-fA-F0-9]{40}$"
+  total_events:
+    type: integer
+  unique_receivers:
+    type: integer
+  active_period:
+    type: string
+    description: "Date range of activity"
+  floor_price_eth:
+    type: string
+  status:
+    type: string
+    enum:
+      - ACTIVE
+      - INACTIVE
+      - PUMP_AND_DUMP_CONFIRMED
+      - FLAGGED
+  red_flags:
+    type: array
+    items:
+      type: string

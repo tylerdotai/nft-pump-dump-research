@@ -1,0 +1,24 @@
+handle: upside_davey
+platform: Twitter/X
+platform_id: "1481177617972334592"
+bio_notes: "NFT and meme coin trader. Deeply connected to BasementRon and the $UFD (Unicorn Fart Dust) community."
+known_wallets:
+  - "0xca5537cafb413d4be21b3613b433112a29855ec5"  # From Twitter bio link
+  # Note: This wallet has 0 ETH and 0 txs — may use different wallet
+associated_projects:
+  - Obsolete Beans (shilled)
+  - Unicorn Fart Dust ($UFD)
+  - Apechain NFTs
+  - Bitcoin Frogs
+  - SpaceRidersXYZ (flagged for shutdown)
+behavior_patterns:
+  - pumps_collections_for_circle
+  - sells_punks_then_chases_narratives
+  - calls_basementron_chief_bean
+key_tweets:
+  - '"Chief bean" nickname for BasementRon — signals inner circle'
+  - '"Eat some beans" — $UFD community phrase'
+  - sold_crypto_punk_for_130k
+  - involved_in_ufd_hack_community_support
+connection_to_collection: "Social shiller — no direct on-chain link to Obsolete Beans wallets found"
+threat_level: MEDIUM  # Social influence, financial connection to network unclear

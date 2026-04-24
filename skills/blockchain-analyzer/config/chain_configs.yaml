@@ -1,0 +1,60 @@
+chains:
+  ethereum:
+    chain_id: "1"
+    name: Ethereum Mainnet
+    symbol: ETH
+    block_time_seconds: 12
+    explorer_base: "https://etherscan.io"
+    rpc_endpoints:
+      - "https://rpc.ankr.com/eth"
+      - "https://eth.llamarpc.com"
+    erc_1155_contract: "0x495f947276749ce646f68ac8c248420045cb7b5e"  # OpenSea Shared Storefront
+    burn_address: "0x000000000000000000000000000000000000dead"
+  avalanche:
+    chain_id: "43114"
+    name: Avalanche C-Chain
+    symbol: AVAX
+    block_time_seconds: 2
+    explorer_base: "https://snowtrace.io"
+    rpc_endpoints:
+      - "https://rpc.ankr.com/avalanche"
+      - "https://api.avax.network/ext/bc/C/rpc"
+  polygon:
+    chain_id: "137"
+    name: Polygon
+    symbol: MATIC
+    block_time_seconds: 2
+    explorer_base: "https://polygonscan.com"
+    rpc_endpoints:
+      - "https://rpc.ankr.com/polygon"
+      - "https://polygon-rpc.com"
+  arbitrum:
+    chain_id: "42161"
+    name: Arbitrum One
+    symbol: ETH
+    block_time_seconds: 1
+    explorer_base: "https://arbiscan.io"
+    rpc_endpoints:
+      - "https://rpc.ankr.com/arbitrum"
+      - "https://arb1.arbitrum.io/rpc"
+  optimism:
+    chain_id: "10"
+    name: Optimism
+    symbol: ETH
+    block_time_seconds: 2
+    explorer_base: "https://optimistic.etherscan.io"
+    rpc_endpoints:
+      - "https://rpc.ankr.com/optimism"
+      - "https://mainnet.optimism.io"
+
+erc Standards:
+  erc20:
+    name: ERC-20
+    transfer_topic: "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef"
+  erc721:
+    name: ERC-721
+    transfer_topic: "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef"
+  erc1155:
+    name: ERC-1155
+    transfer_single_topic: "0xc3d58168c5ae7397731d063d5bbf3ad97e89b1c00e1c5e7c9d3e7d8d8f3c3e7d8"
+    transfer_batch_topic: "0x4a4f1e94c26d1d3f3a1e1b0e1c0d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d0e"

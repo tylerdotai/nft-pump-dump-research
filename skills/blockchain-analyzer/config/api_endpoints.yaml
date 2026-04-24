@@ -1,0 +1,48 @@
+block_explorers:
+  ethereum:
+    name: Etherscan
+    base_url: "https://api.etherscan.io/api"
+    api_key_env: "ETHERSCAN_API_KEY"
+  blockscout:
+    name: Blockscout
+    base_url: "https://eth.blockscout.com/api"
+    requires_api_key: false
+  snowtrace:
+    name: Snowtrace
+    base_url: "https://api.snowtrace.io/api"
+    api_key_env: "SNOWTRACE_API_KEY"
+    chain: avalanche
+
+rpc_providers:
+  alchemy:
+    name: Alchemy
+    base_url: "https://eth-mainnet.g.alchemy.com/v2"
+    api_key_env: "ALCHEMY_API_KEY"
+  infura:
+    name: Infura
+    base_url: "https://mainnet.infura.io/v3"
+    api_key_env: "INFURA_API_KEY"
+  public:
+    name: Public RPC
+    base_url: "https://rpc.ankr.com/eth"
+    requires_api_key: false
+
+nft_apis:
+  opensea:
+    name: OpenSea API
+    base_url: "https://api.opensea.io/api/v2"
+    api_key_env: "OPENSEA_API_KEY"
+  reservoir:
+    name: Reservoir
+    base_url: "https://api.reservoir.tools"
+    api_key_env: "RESERVOIR_API_KEY"
+  moralis:
+    name: Moralis
+    base_url: "https://deep-index.moralis.io/api/v2"
+    api_key_env: "MORALIS_API_KEY"
+
+analytics:
+  dune:
+    name: Dune Analytics
+    base_url: "https://api.dune.com/api/v1"
+    api_key_env: "DUNE_API_KEY"
