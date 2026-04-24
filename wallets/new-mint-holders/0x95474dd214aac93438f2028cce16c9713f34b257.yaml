@@ -1,0 +1,27 @@
+# Deployer Wallet — New Mint Contract
+# Discovered: 2026-04-24
+
+address: "0x95474dd214aac93438f2028cce16c9713f34b257"
+role: CONTRACT_DEPLOYER
+tokens_from_collection: 1
+total_lifetime_transactions: 54
+first_activity: "2025-10-09"
+
+# Blockchain Data
+balance_eth: "0.0020 ETH"
+recent_activity:
+  - "2026-04-24 10:53: 0.0003 ETH transfer"
+  - "2026-04-15: deployed new contract"
+  - "2026-04-07: began mint activity"
+
+# Assessment
+connection_to_original_collection: NONE
+connection_to_upside_davey: NONE
+connection_to_basement_ron: NONE
+disposable_wallet: YES
+
+notes:
+  - "Only 54 lifetime txs — disposable deployer wallet"
+  - "1 token from the new collection (likely test mint)"
+  - "No connection to original Obsolete Beans on-chain"
+  - "Appears to be fresh project deployer, not the old crew"

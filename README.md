@@ -42,9 +42,23 @@ Obsolete Beans is a coordinated NFT pump-and-dump operation run by a network of 
 
 ## Connected Projects
 
-- **Obsolete Beans** — Primary investigation target (Ethereum ERC-1155)
+- **Obsolete Beans (ERC-1155)** — Primary investigation target, Jan 2024 launch, PUMP-AND-DUMP CONFIRMED
+- **Obsolete Beans (ERC-721SeaDrop)** — New mint discovered Apr 15 2026, APPEARS ORGANIC (separate operation)
 - **Unicorn Fart Dust ($UFD)** — Meme coin ecosystem, $1.2M hack in community
 - **SpaceRidersXYZ** — Another project flagged by upside_davey as "getting shut down"
+
+---
+
+## UPDATE: New Mint Discovered (Apr 24 2026)
+
+**New contract:** `0x95c77fc288dfae78bd30c73833e6927d7edb517a`
+- **Type:** ERC721SeaDropCloneable (OpenSea launchpad)
+- **Launched:** April 15, 2026 (17 days ago)
+- **Holders:** 962 wallets, flat distribution (top 10 = 4.8%)
+- **Pattern:** Trading bot market-making, organic mint distribution
+- **Assessment:** APPEARS SEPARATE from original pump-and-dump — NO on-chain link to old crew
+
+See [contracts/new-mint-0x95c77fc/](./contracts/new-mint-0x95c77fc/) for full analysis.
 
 ## Methodology
 

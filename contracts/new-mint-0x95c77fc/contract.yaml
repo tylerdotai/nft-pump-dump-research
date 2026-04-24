@@ -1,0 +1,47 @@
+# New Mint Contract — 0x95c77fc288dfae78bd30c73833e6927d7edb517a
+# Discovered: 2026-04-24
+
+address: "0x95c77fc288dfae78bd30c73833e6927d7edb517a"
+chain: ethereum
+standard: ERC-721 (ERC721SeaDropCloneable)
+platform: OpenSea SeaDrop launchpad
+deployment_date: "2026-04-15"
+deployment_block: "24888763"
+deployer_address: "0x95474dd214aac93438f2028cce16c9713f34b257"
+total_transactions: 521
+active_period: "2026-04-15 to 2026-04-24"
+status: ACTIVE_MINT
+relationship_to_original: NEW_SEPARATE_CONTRACT
+
+# Blockchain Data
+blockchain_activity:
+  mint_burst_dates:
+    - "2026-04-15: 1 tx (deployment)"
+    - "2026-04-16: 245 txs (mint explosion)"
+    - "2026-04-17: 134 txs"
+    - "2026-04-19: 141 txs"
+    - "2026-04-24: active today"
+
+# Holder Analysis
+holder_distribution:
+  unique_holders: 962
+  estimated_supply: 1000
+  top_10_holder_share: "4.8%"
+  distribution_pattern: FLAT_ORGANIC
+
+# Red Flags Assessment
+red_flags_assessment:
+  whale_concentration: NONE
+  burn_manipulation: NONE
+  fresh_wallet_accumulation: NONE
+  single_wallet_control: NONE
+  automated_bots: YES_MARKET_MAKING
+
+verdict: SEPARATE_NEW_MINT_POSSIBLY_ORGANIC
+
+notes:
+  - "ERC721SeaDropCloneable = OpenSea's free launchpad contract"
+  - "Very different from original ERC-1155 pump-and-dump"
+  - "962 holders with flat distribution suggests organic mint"
+  - "Trading bot (0x95e558...) market-making, not accumulation"
+  - "NO on-chain connection to original Obsolete Beans wallets"

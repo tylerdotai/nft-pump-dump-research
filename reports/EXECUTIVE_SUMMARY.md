@@ -45,7 +45,8 @@ Obsolete Beans is a textbook NFT pump-and-dump operation. On January 13, 2024, a
 
 | Project | Status | Connection |
 |---------|--------|------------|
-| **Obsolete Beans** | 🔴 Confirmed scam | Primary investigation target |
+| **Obsolete Beans (ERC-1155)** | 🔴 Confirmed scam | Primary investigation target, Jan 2024 |
+| **Obsolete Beans (ERC-721 SeaDrop)** | 🟡 New — Monitor | New mint Apr 15 2026, appears organic, NO link to original |
 | **Unicorn Fart Dust ($UFD)** | ⚠️ Hacked ($1.2M) | Community ecosystem, shared influencer network |
 | **SpaceRidersXYZ** | ⚠️ Flagged | upside_davey shilled as "getting shut down" — suspected manipulation |
 | **Apechain NFTs** | 🟡 Flagged | Part of upside_davey's pumping history |
@@ -53,9 +54,30 @@ Obsolete Beans is a textbook NFT pump-and-dump operation. On January 13, 2024, a
 
 ---
 
+## NEW: Second Contract Discovered (Apr 24 2026)
+
+**New contract:** `0x95c77fc288dfae78bd30c73833e6927d7edb517a`
+
+A **separate** Obsolete Beans NFT contract was found, launched via OpenSea SeaDrop on April 15, 2026. Key differences from the original pump-and-dump:
+
+| | Original (ERC-1155) | New (ERC-721SeaDrop) |
+|--|--|--|
+| Launch | Jan 13, 2024 | Apr 15, 2026 |
+| Holders | 521 (whale concentrated) | 962 (flat distribution) |
+| Top 10 share | ~59 tokens to 1 wallet | 4.8% top 10 |
+| Burn manipulation | 55 tokens to 0xdead | None |
+| Pattern | Pump-and-dump | Bot market-making, organic |
+| On-chain link | — | **NONE** to original crew |
+
+**Assessment:** Appears to be a separate operation. Trading bot (18K txs) market-making, no whale accumulation, no burn manipulation. No on-chain connection to original Obsolete Beans wallets found.
+
+---
+
 ## Recommendation
 
-**DO NOT ENGAGE with Obsolete Beans or any collection shilled by upside_davey or BasementRon.** The on-chain evidence is unambiguous. This is a coordinated pump-and-dump. The $UFD community network has been associated with multiple similar operations. The 0.0001 ETH floor is artificially maintained and wash-traded. Once the pump is complete and retail buyers are in, the influencers sell their allocations and the collection goes dormant.
+**Original ERC-1155 contract:** 🔴 CONFIRMED PUMP-AND-DUMP — DO NOT ENGAGE
+
+**New ERC-721 contract:** 🟡 MONITOR — Fundamentally different risk profile, but watch for influencer shilling
 
 ---
 

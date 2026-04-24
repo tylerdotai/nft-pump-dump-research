@@ -117,4 +117,70 @@ Mar 28 ──────────── $UFD (Unicorn Fart Dust) suffers $1.
 
 ---
 
+## NEW: Second Contract Discovered (Apr 24 2026)
+
+**Contract:** `0x95c77fc288dfae78bd30c73833e6927d7edb517a`
+
+On Apr 24 2026, a second Obsolete Beans NFT contract was discovered — deployed via OpenSea's SeaDrop launchpad on April 15, 2026. This is a **separate contract** from the original ERC-1155 pump-and-dump.
+
+### Contract Details
+
+| Field | Value |
+|-------|-------|
+| Contract Type | ERC721SeaDropCloneable |
+| Platform | OpenSea SeaDrop launchpad |
+| Deployment Date | April 15, 2026 |
+| Deployer | `0x95474dd214aac93438f2028cce16c9713f34b257` |
+| Total Transactions | 521 |
+
+### Mint Activity Pattern
+
+| Date | Transactions | Notes |
+|------|-------------|-------|
+| Apr 15 | 1 | Contract deployment |
+| Apr 16 | 245 | Major mint burst |
+| Apr 17 | 134 | Secondary mint wave |
+| Apr 19 | 141 | Third mint wave |
+| Apr 24 | Active | Still minting today |
+
+### Holder Distribution
+
+| Metric | Value |
+|--------|-------|
+| Unique holders | 962 |
+| Estimated supply | ~1,000 tokens |
+| Top 10 holders | 4.8% of supply |
+| Largest holder | 36 tokens (3.6%) |
+
+### Key Holder: `0x95e55841423a525645a85d867e41dcda3b8d3402`
+
+The largest holder has **18,629 transactions** — this is a **market-making trading bot**, not a team wallet. It routes through `0xb92fe925...` (automated dealer contract). No connection to the original Obsolete Beans crew.
+
+### Cross-Contract Analysis
+
+| Check | Result |
+|--------|--------|
+| Old whale wallets holding new tokens? | ❌ None |
+| New holder wallets in old contract? | ❌ None |
+| Shared deployer? | ❌ Different deployer |
+| On-chain linkage | **NONE** |
+
+### Assessment: APPEARS ORGANIC
+
+**Unlike the original ERC-1155 pump-and-dump:**
+- Flat distribution (top 10 = 4.8%)
+- No burn address manipulation
+- No fresh wallet accumulation
+- Trading bot market-making present
+- No on-chain connection to original crew
+
+**Possible explanations:**
+1. Someone unrelated found the dead collection and launched a new project with the same branding
+2. Same crew running an extremely low-key operation (unlikely given bot pattern)
+3. Someone copied the branding for a legitimate new project
+
+**Recommendation:** Monitor but fundamentally different risk profile from the original.
+
+---
+
 *Report generated: 2026-04-24*

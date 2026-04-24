@@ -1,0 +1,33 @@
+# Largest Holder — New Mint Contract
+# Discovered: 2026-04-24
+
+address: "0x95e55841423a525645a85d867e41dcda3b8d3402"
+tokens_held: 36
+percentage_of_supply: "3.6%"
+rank: 1
+role: MARKET_MAKER_BOT
+
+# Wallet Profile
+wallet_type: BOT
+first_activity: "2025-12-29"
+total_transactions: 18629
+pattern: "Automated market-making across multiple contracts"
+interacts_with: "0xb92fe925dc43a0ecde6c8b1b1... (automated dealer / DeFi protocol)"
+
+# Blockchain Data
+balance_eth: "0.0008 ETH"
+nonce: 18629
+
+# Assessment
+connection_to_original_collection: NONE
+connection_to_upside_davey: NONE
+connection_to_basement_ron: NONE
+connection_to_old_whales: NONE
+threat_level: LOW_AUTOMATED_TRADING
+
+notes:
+  - "18,629 transactions since Dec 2025 — not a typical holder wallet"
+  - "Routed through 0xb92fe925... (automated dealer contract)"
+  - "Market-making bot, NOT a team wallet or insider"
+  - "No interaction with original ERC-1155 contract"
+  - "No connection to any known upside_davey or BasementRon wallets"
